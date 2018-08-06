@@ -3,6 +3,8 @@
 
 JavaScript library to play sound alerts 
 
+Demo: https://github.com/beenotung/demo-alert
+
 ```js
 alert = require('sound-alert.js')
 
