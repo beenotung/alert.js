@@ -1,6 +1,6 @@
 {
   "name": "sound-alert.js",
-  "version": "0.0.2-docv2",
+  "version": "0.0.3",
   "description": "Play Sound Alerts",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   ],
   "license": "BSD-2-Clause",
   "dependencies": {
-    "play-audio.js": "^0.0.4"
+    "play-audio.js": "^0.0.6"
   },
   "repository": {
     "type": "git",

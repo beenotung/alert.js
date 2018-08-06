@@ -1,5 +1,5 @@
 ;(function(process){  require.m = { 0:[function(require,module,exports){ window.playAlert = require('./');
- },{"./":1}],1:[function(require,module,exports){ var play    = require('play-audio'),
+ },{"./":1}],1:[function(require,module,exports){ var play    = require('play-audio.js'),
     content = require('./content'),
     playing = play().autoplay();
 
@@ -15,7 +15,7 @@ function playAlert(name){
 
   playing.src(content[name]);
 }
- },{"./content":2,"play-audio":3}],2:[function(require,module,exports){ module.exports = {
+ },{"./content":2,"play-audio.js":3}],2:[function(require,module,exports){ module.exports = {
   bottle: ['http://i.cloudup.com/y29czRwU3R.m4a', 'http://i.cloudup.com/baNnhH1I7M.ogg'],
   funk: ['http://i.cloudup.com/KkfWRzYC77.m4a', 'http://i.cloudup.com/7SSbOm5XZS.ogg'],
   glass: ['http://i.cloudup.com/E021I9zUG3.m4a', 'http://i.cloudup.com/3gveeCqUD6.ogg'],
