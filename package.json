@@ -1,6 +1,6 @@
 {
   "name": "sound-alert.js",
-  "version": "0.0.2",
+  "version": "0.0.2-doc",
   "description": "Play Sound Alerts",
   "main": "index.js",
   "scripts": {
