@@ -1,9 +1,10 @@
-## alert
+## sound-alert.js
+[![npm Package Version](https://img.shields.io/npm/v/sound-alert.js.svg?maxAge=2592000)](https://www.npmjs.com/package/sound-alert.js)
 
 JavaScript library to play sound alerts 
 
 ```js
-alert = require('alert')
+alert = require('sound-alert.js')
 
 alert() // Plays default alert "bottle"
 alert('purr')

@@ -1,5 +1,5 @@
 {
-  "name": "alert",
+  "name": "sound-alert.js",
   "version": "0.0.2",
   "description": "Play Sound Alerts",
   "main": "index.js",
@@ -18,13 +18,18 @@
     "play",
     "alert"
   ],
-  "repository": {
-    "url": "git@github.com:azer/alert.git",
-    "type": "git"
-  },
   "author": "Azer Koçulu <azer@kodfabrik.com>",
-  "license": "BSD",
+  "contributors": ["Beeno Tung <aabbcc1241@yahoo.com.hk>"],
+  "license": "BSD-2-Clause",
   "dependencies": {
-    "play-audio": "*"
-  }
+    "play-audio.js": "^0.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/alert.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beenotung/alert.js/issues"
+  },
+  "homepage": "https://github.com/beenotung/alert.js#readme"
 }
